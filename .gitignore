@@ -1,4 +1,5 @@
-nodemodules/
+serveur/node_modules/
+client/node_modules
 dist/
 buils
 .env
