@@ -1,0 +1,61 @@
+.App {
+  background-color: #073b4c;
+}
+
+.header {
+  background-color: #06d6a0;
+}
+
+  /* 
+  Toute les lignes comme celle ci  : calc(100vh - 350px) 
+  sont liées à mon problème de footer
+  Je n'ai pas réussi à le coller en bas. 
+  Ces lignes sont issues d'une solution
+  proposé par Claude AI
+  */
+
+  .liste {
+  max-height: calc(100vh - 350px);
+}
+
+.home-container {
+  background-color: #118ab2;
+  height: calc(100vh - 250px);
+}
+
+.clients {
+  background-color: #ffd166;
+  border-color: #ef476f;
+  max-height: calc(100vh - 250px);
+}
+
+.results {
+  background-color: #ffd166;
+  border-color: #ef476f;
+  height: calc(100vh - 250px);
+}
+
+.questions {
+  background-color: #118ab2;
+  height: calc(100vh - 250px);
+}
+
+.question-block {
+  border-color: #ef476f;
+  background-color: #ffd166;
+}
+
+.question {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.vote-counter {
+  min-width: 40px;
+}
+
+#site-footer {
+  background-color: #118ab2;
+  padding: 20px;
+  color: lightgray;
+}
